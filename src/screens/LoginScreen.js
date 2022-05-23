@@ -1,7 +1,6 @@
-import { getAdmin } from "../api";
 import axios from 'axios';
-import { getAdminInfo, setAdminInfo } from "../localStorage";
-import { hideLoading, showLoading } from "../utils";
+import { getAdminInfo, setAdminInfo } from "../localStorage.js";
+import { hideLoading, showLoading } from "../utils.js";
 
 
 

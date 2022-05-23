@@ -1,4 +1,4 @@
-import { apiUrl } from "./config";
+import { apiUrl } from "./config.js";
 import axios from 'axios';
 
 export const getProduct= async (id)=>{

@@ -1,6 +1,5 @@
-import { createProduct } from '../api';
 import axios from 'axios';
-import { getAdminInfo } from '../localStorage';
+import { getAdminInfo } from '../localStorage.js';
 
 
 const EditProductScreen = {

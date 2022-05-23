@@ -1,5 +1,5 @@
-import { getProduct } from '../api';
-import {parseRequestUrl} from '../utils';
+import { getProduct } from '../api.js';
+import {parseRequestUrl} from '../utils.js';
 const ProductScreen={
 
     after_render: ()=>{

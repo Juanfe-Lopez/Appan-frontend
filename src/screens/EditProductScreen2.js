@@ -1,8 +1,8 @@
 import axios from 'axios';
-import {  updateProduct } from '../api';
-import { getProduct } from '../api';
-import { getAdminInfo } from '../localStorage';
-import {hideLoading, parseRequestUrl, showLoading, showMessage} from '../utils';
+import {  updateProduct } from '../api.js';
+import { getProduct } from '../api.js';
+import { getAdminInfo } from '../localStorage.js';
+import {hideLoading, parseRequestUrl, showLoading, showMessage} from '../utils.js';
 const EditProductScreen2 = {
 
     after_render: async () => {   

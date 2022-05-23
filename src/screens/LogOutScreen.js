@@ -1,5 +1,5 @@
-import { clearAdmin } from "../localStorage";
-import { hideLoading, showLoading } from "../utils";
+import { clearAdmin } from "../localStorage.js";
+import { hideLoading, showLoading } from "../utils.js";
 
 const LogOutScreen = {
     render: () => {

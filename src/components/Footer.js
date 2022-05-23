@@ -1,5 +1,4 @@
-import { clearAdmin, getAdminInfo, getUserInfo } from '../localStorage';
-import { parseRequestUrl } from '../utils';
+import {  getAdminInfo } from '../localStorage.js';
 
 const Footer = {
   render: () => {

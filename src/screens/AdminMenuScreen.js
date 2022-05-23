@@ -1,4 +1,4 @@
-import { getAdminInfo } from "../localStorage";
+import { getAdminInfo } from "../localStorage.js";
 
 const AdminMenuScreen = {
 

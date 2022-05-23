@@ -2,10 +2,10 @@ import {
     getCartItems,
     getShipping,
     cleanCart,
-  } from '../localStorage';
+  } from '../localStorage.js';
 
-  import { createOrder, sendMessage } from '../api';
-import { hideLoading, showLoading, showMessage } from '../utils';
+  import { createOrder, sendMessage } from '../api.js';
+import { hideLoading, showLoading, showMessage } from '../utils.js';
   
   const convertCartToOrder = () => {
     const orderItems = getCartItems();

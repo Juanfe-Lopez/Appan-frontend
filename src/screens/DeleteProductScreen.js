@@ -1,7 +1,7 @@
 import axios from "axios";
-import { deleteProduct, getProduct } from "../api";
-import { getAdminInfo } from "../localStorage";
-import { hideLoading, showLoading, showMessage } from "../utils";
+import { deleteProduct, getProduct } from "../api.js";
+import { getAdminInfo } from "../localStorage.js";
+import { hideLoading, showLoading, showMessage } from "../utils.js";
 
 const DeleteProductScreen = {
 

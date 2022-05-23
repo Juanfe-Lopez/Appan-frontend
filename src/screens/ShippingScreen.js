@@ -1,5 +1,5 @@
-import { getShipping, setShipping, cleanCart } from '../localStorage';
-import { hideLoading, showLoading, showMessage } from '../utils';
+import { getShipping, setShipping, cleanCart } from '../localStorage.js';
+import { hideLoading, showLoading, showMessage } from '../utils.js';
 
 const ShippingScreen = {
   after_render: () => {
