@@ -17,7 +17,7 @@ const LoginScreen = {
             const password= document.getElementById("pass").value;
             showLoading();
             const response= await axios({
-              url: 'http://localhost:5000/api/users',
+              url: 'https://appan-dinamita.herokuapp.com/api/users',
               headers: {
                   "Content-Type":"application/json",
               },

@@ -53,7 +53,7 @@ const DeleteProductScreen = {
         document.location.hash='/'
       }
         const response= await axios({
-            url: 'http://localhost:5000/api/products',
+            url: 'https://appan-dinamita.herokuapp.com/api/products',
             headers: {
                 "Content-Type":"application/json",
             },
