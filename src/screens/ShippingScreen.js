@@ -55,7 +55,7 @@ const ShippingScreen = {
           </li>
           <li>
             <label for="postalCode">Telefono</label>
-            <input type="text" name="phone" id="postalCode" value="${phone}" />
+            <input type="number" name="phone" id="postalCode" value="${phone}" />
           </li>
           <li>
             <label for="country">Comentarios:</label>
